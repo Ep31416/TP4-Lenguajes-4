@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px; /* Espacio entre los botones */
+}
+
+button {
+    background-color: #5cb85c; /* Verde estilo Bootstrap */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#resultado {
+    margin-top: 30px;
+    color: #555;
+    font-weight: bold;
+}
